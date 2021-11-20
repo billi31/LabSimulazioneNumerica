@@ -1,0 +1,11 @@
+32
+1.5
+0.005
+2000
+700
+
+	ReadInput >> ncity;
+	ReadInput >> initial_t;
+	ReadInput >> cooling_rate;
+	ReadInput >> step_temperature;
+	ReadInput >> MC_step;

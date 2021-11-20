@@ -1,0 +1,116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C32AEB7726EB8E500022F5C3 /* prepare */ = {isa = PBXFileReference; lastKnownFileType = folder; path = prepare; sourceTree = "<group>"; };
+		C32AEB7826EB92980022F5C3 /* gibbs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gibbs; sourceTree = "<group>"; };
+		C32AEB7926EB929F0022F5C3 /* metro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = metro; sourceTree = "<group>"; };
+		C349A72C26DCE82F0089842A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C349A73526DE2D5C0089842A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = SOURCE_ROOT; };
+		C349A73626DE34700089842A /* Monte_Carlo_ISING_1D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Monte_Carlo_ISING_1D.hpp; sourceTree = "<group>"; };
+		C349A73926DE34910089842A /* Monte_Carlo_ISING_1D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Monte_Carlo_ISING_1D.cpp; sourceTree = "<group>"; };
+		C349A73C26DE67560089842A /* input.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
+		C36A19DE26DFBBE600CBCB44 /* random.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = random.hpp; sourceTree = "<group>"; };
+		C36A19DF26DFBC5C00CBCB44 /* Primes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Primes; sourceTree = "<group>"; };
+		C36A19E026DFBC6500CBCB44 /* seed.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = seed.in; sourceTree = "<group>"; };
+		C36C3BEE26E210DB00098F7D /* config.final */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.final; sourceTree = "<group>"; };
+		C36C3BEF26E21BC100098F7D /* config.0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.0; sourceTree = "<group>"; };
+		C397488A27354440006EA7F5 /* random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		C397488B27354FB2006EA7F5 /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C349A72526DCE8020089842A = {
+			isa = PBXGroup;
+			children = (
+				C349A73526DE2D5C0089842A /* Makefile */,
+				C32AEB7726EB8E500022F5C3 /* prepare */,
+				C36C3BEE26E210DB00098F7D /* config.final */,
+				C36C3BEF26E21BC100098F7D /* config.0 */,
+				C397488B27354FB2006EA7F5 /* run.sh */,
+				C349A73C26DE67560089842A /* input.dat */,
+				C349A72D26DCE8E30089842A /* include */,
+				C32AEB7826EB92980022F5C3 /* gibbs */,
+				C32AEB7926EB929F0022F5C3 /* metro */,
+				C349A73226DCE9490089842A /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		C349A72D26DCE8E30089842A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C36A19DE26DFBBE600CBCB44 /* random.hpp */,
+				C349A73626DE34700089842A /* Monte_Carlo_ISING_1D.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C349A73226DCE9490089842A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C36A19DF26DFBC5C00CBCB44 /* Primes */,
+				C36A19E026DFBC6500CBCB44 /* seed.in */,
+				C349A72C26DCE82F0089842A /* main.cpp */,
+				C349A73926DE34910089842A /* Monte_Carlo_ISING_1D.cpp */,
+				C397488A27354440006EA7F5 /* random.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C349A72626DCE8020089842A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = C349A72926DCE8020089842A /* Build configuration list for PBXProject "6lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C349A72526DCE8020089842A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C349A72A26DCE8020089842A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C349A72B26DCE8020089842A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C349A72926DCE8020089842A /* Build configuration list for PBXProject "6lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C349A72A26DCE8020089842A /* Debug */,
+				C349A72B26DCE8020089842A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C349A72626DCE8020089842A /* Project object */;
+}

@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C326042D271F0F450021F9E8 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		C326042E271F0F450021F9E8 /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; path = output; sourceTree = "<group>"; };
+		C326042F271F0F460021F9E8 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C3260430271F0F4C0021F9E8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C34C60302624F01800A8125C = {
+			isa = PBXGroup;
+			children = (
+				C3260430271F0F4C0021F9E8 /* Makefile */,
+				C326042D271F0F450021F9E8 /* include */,
+				C326042E271F0F450021F9E8 /* output */,
+				C326042F271F0F460021F9E8 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C34C60312624F01800A8125C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+			};
+			buildConfigurationList = C34C60342624F01800A8125C /* Build configuration list for PBXProject "3lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C34C60302624F01800A8125C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C34C60352624F01800A8125C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C34C60362624F01800A8125C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34C60342624F01800A8125C /* Build configuration list for PBXProject "3lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34C60352624F01800A8125C /* Debug */,
+				C34C60362624F01800A8125C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34C60312624F01800A8125C /* Project object */;
+}

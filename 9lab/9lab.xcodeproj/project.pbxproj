@@ -1,0 +1,86 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C3649D8226F33E7A000DAB43 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		C3649D8326F33E88000DAB43 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C3649D8526F33E94000DAB43 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C3649D8626F3403D000DAB43 /* input.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
+		C375B892273D84BE0045BEC9 /* prepare */ = {isa = PBXFileReference; lastKnownFileType = folder; path = prepare; sourceTree = "<group>"; };
+		C375B893273D85420045BEC9 /* input.circle */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.circle; sourceTree = "<group>"; };
+		C375B894273D85530045BEC9 /* input.square */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.square; sourceTree = "<group>"; };
+		C39A34CB26F4EB1900683FA8 /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; path = output; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C3649D7926F33E17000DAB43 = {
+			isa = PBXGroup;
+			children = (
+				C3649D8626F3403D000DAB43 /* input.dat */,
+				C375B893273D85420045BEC9 /* input.circle */,
+				C375B894273D85530045BEC9 /* input.square */,
+				C375B892273D84BE0045BEC9 /* prepare */,
+				C3649D8326F33E88000DAB43 /* Makefile */,
+				C39A34CB26F4EB1900683FA8 /* output */,
+				C3649D8526F33E94000DAB43 /* src */,
+				C3649D8226F33E7A000DAB43 /* include */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C3649D7A26F33E17000DAB43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = C3649D7D26F33E17000DAB43 /* Build configuration list for PBXProject "9lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3649D7926F33E17000DAB43;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C3649D7E26F33E17000DAB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C3649D7F26F33E17000DAB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3649D7D26F33E17000DAB43 /* Build configuration list for PBXProject "9lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3649D7E26F33E17000DAB43 /* Debug */,
+				C3649D7F26F33E17000DAB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3649D7A26F33E17000DAB43 /* Project object */;
+}

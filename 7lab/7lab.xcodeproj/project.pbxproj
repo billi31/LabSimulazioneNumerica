@@ -1,0 +1,100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C346D20227394A3100ED2AEF /* run_instantaneus.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_instantaneus.sh; sourceTree = "<group>"; };
+		C346D20327394A3E00ED2AEF /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		C34F876626E7C2C90000A886 /* config.final */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.final; sourceTree = "<group>"; };
+		C36C3BF826E2206500098F7D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C36C3BF926E220A700098F7D /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C36C3BFA26E220BF00098F7D /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		C36C3BFE26E25E9100098F7D /* config.fcc */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.fcc; sourceTree = "<group>"; };
+		C36C3BFF26E25E9100098F7D /* config.0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.0; sourceTree = "<group>"; };
+		C36C3C0026E25EA500098F7D /* input.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.liquid; sourceTree = "<group>"; };
+		C36C3C0426E25EA600098F7D /* input.solid */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.solid; sourceTree = "<group>"; };
+		C36C3C0526E26E2300098F7D /* input.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
+		C36C3C0726E270F000098F7D /* input.gas */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.gas; sourceTree = "<group>"; };
+		C36C3C0926E2890200098F7D /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; path = output; sourceTree = "<group>"; };
+		C3DFFBAD26E923C300F60EBE /* MD */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MD; sourceTree = "<group>"; };
+		C3FD71BE26E9164D0051A99B /* prepare */ = {isa = PBXFileReference; lastKnownFileType = folder; path = prepare; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C36C3BF026E2200500098F7D = {
+			isa = PBXGroup;
+			children = (
+				C36C3BF826E2206500098F7D /* Makefile */,
+				C3DFFBAD26E923C300F60EBE /* MD */,
+				C3FD71BE26E9164D0051A99B /* prepare */,
+				C36C3BFF26E25E9100098F7D /* config.0 */,
+				C36C3BFE26E25E9100098F7D /* config.fcc */,
+				C34F876626E7C2C90000A886 /* config.final */,
+				C36C3C0026E25EA500098F7D /* input.liquid */,
+				C346D20227394A3100ED2AEF /* run_instantaneus.sh */,
+				C346D20327394A3E00ED2AEF /* run.sh */,
+				C36C3C0526E26E2300098F7D /* input.dat */,
+				C36C3C0726E270F000098F7D /* input.gas */,
+				C36C3C0426E25EA600098F7D /* input.solid */,
+				C36C3C0926E2890200098F7D /* output */,
+				C36C3BF926E220A700098F7D /* src */,
+				C36C3BFA26E220BF00098F7D /* include */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C36C3BF126E2200500098F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = C36C3BF426E2200500098F7D /* Build configuration list for PBXProject "7lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C36C3BF026E2200500098F7D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C36C3BF526E2200500098F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C36C3BF626E2200500098F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36C3BF426E2200500098F7D /* Build configuration list for PBXProject "7lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36C3BF526E2200500098F7D /* Debug */,
+				C36C3BF626E2200500098F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36C3BF126E2200500098F7D /* Project object */;
+}

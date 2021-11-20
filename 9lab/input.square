@@ -1,0 +1,22 @@
+32
+180
+500
+0.1
+0.6
+
+
+  ReadInput >> ncity;
+  ReadInput >> n_individuals;
+  ReadInput >> n_generations;
+  ReadInput >> pm;	//mutation probability
+  ReadInput >> pc;	//crossover probability
+
+
+//best path found:
+//circle
+//n_generations = 300
+//n_individuals = 230
+
+//square
+//n_generations = 500
+//n_individuals = 180

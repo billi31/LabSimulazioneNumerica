@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C350B12926FCD2F000B77091 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C350B12A26FCD2F000B77091 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C350B12B26FCD31900B77091 /* input.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
+		C350B12C26FCD31900B77091 /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; path = output; sourceTree = "<group>"; };
+		C350B12D26FCD31900B77091 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		C375B895273E896D0045BEC9 /* input.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
+		C375B896273E897A0045BEC9 /* prepare */ = {isa = PBXFileReference; lastKnownFileType = folder; path = prepare; sourceTree = "<group>"; };
+		C375B8AD273EB7C90045BEC9 /* MPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MPI; sourceTree = "<group>"; };
+		C3BA00562701C5C600BA837E /* input.circle */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.circle; sourceTree = "<group>"; };
+		C3BA00582701C5FF00BA837E /* input.square */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.square; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C350B12226FCD2C300B77091 = {
+			isa = PBXGroup;
+			children = (
+				C3BA00562701C5C600BA837E /* input.circle */,
+				C3BA00582701C5FF00BA837E /* input.square */,
+				C375B895273E896D0045BEC9 /* input.dat */,
+				C375B896273E897A0045BEC9 /* prepare */,
+				C350B12A26FCD2F000B77091 /* Makefile */,
+				C350B12D26FCD31900B77091 /* include */,
+				C350B12B26FCD31900B77091 /* input.dat */,
+				C350B12C26FCD31900B77091 /* output */,
+				C350B12926FCD2F000B77091 /* src */,
+				C375B8AD273EB7C90045BEC9 /* MPI */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C350B12326FCD2C300B77091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = C350B12626FCD2C300B77091 /* Build configuration list for PBXProject "10lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C350B12226FCD2C300B77091;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C350B12726FCD2C300B77091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C350B12826FCD2C300B77091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C350B12626FCD2C300B77091 /* Build configuration list for PBXProject "10lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C350B12726FCD2C300B77091 /* Debug */,
+				C350B12826FCD2C300B77091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C350B12326FCD2C300B77091 /* Project object */;
+}

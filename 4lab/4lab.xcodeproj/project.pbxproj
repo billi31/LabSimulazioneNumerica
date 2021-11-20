@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C3260432272022960021F9E8 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		C3260434272022960021F9E8 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C3260439272031640021F9E8 /* gas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gas; sourceTree = "<group>"; };
+		C326043A272031690021F9E8 /* liquid */ = {isa = PBXFileReference; lastKnownFileType = folder; path = liquid; sourceTree = "<group>"; };
+		C326043B272031710021F9E8 /* solid */ = {isa = PBXFileReference; lastKnownFileType = folder; path = solid; sourceTree = "<group>"; };
+		C340FA1D2631A8B600F35408 /* config.0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.0; sourceTree = "<group>"; };
+		C340FA1E2631A8B600F35408 /* config.fcc */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.fcc; sourceTree = "<group>"; };
+		C340FA202631A8BE00F35408 /* input.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
+		C3B1C5B02693118B0098E9B3 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C3D09A882632D2DD00113202 /* old.0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = old.0; sourceTree = "<group>"; };
+		C3FB6351273436A500E64A91 /* run */ = {isa = PBXFileReference; lastKnownFileType = folder; path = run; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C340FA142631A88F00F35408 = {
+			isa = PBXGroup;
+			children = (
+				C340FA1D2631A8B600F35408 /* config.0 */,
+				C340FA1E2631A8B600F35408 /* config.fcc */,
+				C340FA202631A8BE00F35408 /* input.dat */,
+				C3D09A882632D2DD00113202 /* old.0 */,
+				C3FB6351273436A500E64A91 /* run */,
+				C3B1C5B02693118B0098E9B3 /* Makefile */,
+				C326043B272031710021F9E8 /* solid */,
+				C326043A272031690021F9E8 /* liquid */,
+				C3260439272031640021F9E8 /* gas */,
+				C3260432272022960021F9E8 /* include */,
+				C3260434272022960021F9E8 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C340FA152631A88F00F35408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+			};
+			buildConfigurationList = C340FA182631A88F00F35408 /* Build configuration list for PBXProject "4lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C340FA142631A88F00F35408;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C340FA192631A89000F35408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C340FA1A2631A89000F35408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C340FA182631A88F00F35408 /* Build configuration list for PBXProject "4lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C340FA192631A89000F35408 /* Debug */,
+				C340FA1A2631A89000F35408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C340FA152631A88F00F35408 /* Project object */;
+}

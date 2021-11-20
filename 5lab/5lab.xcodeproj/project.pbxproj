@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C3052E6A26B94D0C00EF9559 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C33B4D6F26B9742000BF95A6 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		C341CE6E26AF0E4200C92CF4 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C382073227329D7600F9E94F /* run */ = {isa = PBXFileReference; lastKnownFileType = folder; path = run; sourceTree = "<group>"; };
+		C38207332732A68900F9E94F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C3C424222731A880009BE497 /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; path = output; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C341CE6026AF0D2C00C92CF4 = {
+			isa = PBXGroup;
+			children = (
+				C341CE6E26AF0E4200C92CF4 /* Makefile */,
+				C38207332732A68900F9E94F /* README.md */,
+				C382073227329D7600F9E94F /* run */,
+				C3C424222731A880009BE497 /* output */,
+				C33B4D6F26B9742000BF95A6 /* include */,
+				C3052E6A26B94D0C00EF9559 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C341CE6126AF0D2C00C92CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+			};
+			buildConfigurationList = C341CE6426AF0D2C00C92CF4 /* Build configuration list for PBXProject "5lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C341CE6026AF0D2C00C92CF4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C341CE6526AF0D2C00C92CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C341CE6626AF0D2C00C92CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C341CE6426AF0D2C00C92CF4 /* Build configuration list for PBXProject "5lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C341CE6526AF0D2C00C92CF4 /* Debug */,
+				C341CE6626AF0D2C00C92CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C341CE6126AF0D2C00C92CF4 /* Project object */;
+}

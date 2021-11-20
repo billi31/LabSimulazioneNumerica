@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C326042A271D72D30021F9E8 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		C326042B271D72E50021F9E8 /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; path = output; sourceTree = "<group>"; };
+		C326042C271D72F20021F9E8 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C387F6AB260E49A5001280CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C387F69E260E42E9001280CB = {
+			isa = PBXGroup;
+			children = (
+				C387F6AB260E49A5001280CB /* Makefile */,
+				C326042A271D72D30021F9E8 /* include */,
+				C326042B271D72E50021F9E8 /* output */,
+				C326042C271D72F20021F9E8 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C387F69F260E42E9001280CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+			};
+			buildConfigurationList = C387F6A2260E42E9001280CB /* Build configuration list for PBXProject "2lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C387F69E260E42E9001280CB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C387F6A3260E42E9001280CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C387F6A4260E42E9001280CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C387F6A2260E42E9001280CB /* Build configuration list for PBXProject "2lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C387F6A3260E42E9001280CB /* Debug */,
+				C387F6A4260E42E9001280CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C387F69F260E42E9001280CB /* Project object */;
+}

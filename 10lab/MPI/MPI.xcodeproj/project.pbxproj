@@ -1,0 +1,158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C375B89D273EB7C70045BEC9 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		C375B89E273EB7C70045BEC9 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		C375B89F273EB7C70045BEC9 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		C375B8A1273EB7C70045BEC9 /* input.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
+		C375B8A2273EB7C70045BEC9 /* input.square */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.square; sourceTree = "<group>"; };
+		C375B8A3273EB7C70045BEC9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C375B8A4273EB7C70045BEC9 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = obj; sourceTree = "<group>"; };
+		C375B8A5273EB7C70045BEC9 /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; path = output; sourceTree = "<group>"; };
+		C375B8A6273EB7C70045BEC9 /* prepare */ = {isa = PBXFileReference; lastKnownFileType = folder; path = prepare; sourceTree = "<group>"; };
+		C375B8A7273EB7C70045BEC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C375B8A8273EB7C70045BEC9 /* seed.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = seed.out; sourceTree = "<group>"; };
+		C375B8A9273EB7C70045BEC9 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C375B897273EB7C60045BEC9 = {
+			isa = PBXGroup;
+			children = (
+				C375B89D273EB7C70045BEC9 /* .DS_Store */,
+				C375B89E273EB7C70045BEC9 /* bin */,
+				C375B89F273EB7C70045BEC9 /* include */,
+				C375B8A1273EB7C70045BEC9 /* input.dat */,
+				C375B8A2273EB7C70045BEC9 /* input.square */,
+				C375B8A3273EB7C70045BEC9 /* Makefile */,
+				C375B8A4273EB7C70045BEC9 /* obj */,
+				C375B8A5273EB7C70045BEC9 /* output */,
+				C375B8A6273EB7C70045BEC9 /* prepare */,
+				C375B8A7273EB7C70045BEC9 /* README.md */,
+				C375B8A8273EB7C70045BEC9 /* seed.out */,
+				C375B8A9273EB7C70045BEC9 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C375B89C273EB7C60045BEC9 /* MPI */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = C375B8AA273EB7C80045BEC9 /* Build configuration list for PBXLegacyTarget "MPI" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/administrator/lab_sim_num/10lab/MPI;
+			dependencies = (
+			);
+			name = MPI;
+			passBuildSettingsInEnvironment = 1;
+			productName = MPI;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		C375B898273EB7C60045BEC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C375B89B273EB7C60045BEC9 /* Build configuration list for PBXProject "MPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C375B897273EB7C60045BEC9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C375B89C273EB7C60045BEC9 /* MPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C375B899273EB7C60045BEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C375B89A273EB7C60045BEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		C375B8AB273EB7C80045BEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = MPI;
+			};
+			name = Debug;
+		};
+		C375B8AC273EB7C80045BEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = MPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C375B89B273EB7C60045BEC9 /* Build configuration list for PBXProject "MPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C375B899273EB7C60045BEC9 /* Debug */,
+				C375B89A273EB7C60045BEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C375B8AA273EB7C80045BEC9 /* Build configuration list for PBXLegacyTarget "MPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C375B8AB273EB7C80045BEC9 /* Debug */,
+				C375B8AC273EB7C80045BEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C375B898273EB7C60045BEC9 /* Project object */;
+}

@@ -1,0 +1,23 @@
+0.795
+0.59
+3.5
+100
+100
+0.05
+0.25
+0.05
+0.05
+20
+20
+
+	ReadInput >> mu;
+	ReadInput >> sigma;
+	ReadInput >> edge;
+	ReadInput >> nblk;
+	ReadInput >> nstep;
+	ReadInput >> initial_mu;
+	ReadInput >> initial_sigma;
+	ReadInput >> delta_mu;
+	ReadInput >> delta_sigma;
+	ReadInput >> grid_mu;
+	ReadInput >> grid_sigma;

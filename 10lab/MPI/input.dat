@@ -1,0 +1,16 @@
+32
+180
+500
+30
+L2
+0.1
+0.6
+
+
+  ReadInput >> ncity;
+  ReadInput >> n_individuals;
+  ReadInput >> n_generations;
+  ReadInput >> nmigr;
+  ReadInput >> fitness;
+  ReadInput >> pm;	//mutation probability
+  ReadInput >> pc;	//crossover probability
